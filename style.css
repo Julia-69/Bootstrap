@@ -1,0 +1,312 @@
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v12/1Ptug8zYS_SKggPNyC0ITw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Raleway Medium'), local('Raleway-Medium'), url(https://fonts.gstatic.com/s/raleway/v12/1Ptrg8zYS_SKggPNwN4rWqZPAA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Raleway SemiBold'), local('Raleway-SemiBold'), url(https://fonts.gstatic.com/s/raleway/v12/1Ptrg8zYS_SKggPNwPIsWqZPAA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Raleway Bold'), local('Raleway-Bold'), url(https://fonts.gstatic.com/s/raleway/v12/1Ptrg8zYS_SKggPNwJYtWqZPAA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+body{
+    font-family: 'Raleway', sans-serif !important;
+}
+
+header{
+    background: url("./img/center_img.jpg") no-repeat center;
+    background-size: 100% auto;
+    height: 100vh;
+    color: #434343;
+}
+
+#navbarColor01 .line{
+margin-left: 10px;
+}
+
+.container img{
+    padding-top: 20px;
+    width: 220px;
+}
+
+.navbar-nav {
+    padding-top: 20px;
+}
+.nav-link{
+    color: #434343 !important;
+    font-size: 13px;
+}
+
+#sign-up-line li:last-child{
+    border-left: 0.5px solid gray;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+.navbar-collapse{
+    font-size: 10px;
+}
+h1{
+    padding-top: 130px;
+}
+
+.form-control{
+   font-weight: 80%;
+}
+
+.logo{
+    padding-top: 10px;
+}
+h1 span{
+    font-size: 40px;
+}
+
+span .color{
+    color: green;
+}
+
+.span2{
+    width: 30vw;
+}
+
+h3{
+    padding-top: 16vh;
+}
+
+.all-products{
+    padding-top: 7vh;
+    color: #42c5f4;
+}
+
+.btn-default:hover{
+    background-color: #e9ecef !important;
+}
+
+#container-fluid-down{
+    background: #323232;
+}
+
+.text-down{
+    padding-top: 3vh;
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#icon{
+    padding-top: 10vh;
+}
+
+#footer{
+    background: #272727;
+}
+#collapsingNavbar2 p{
+    font-size: 13px;
+
+}
+
+.line {
+    position: absolute;
+    left: 61%;
+    top: 25px;
+    bottom: 0;
+    width: 1px;
+    background: #ccc;
+    z-index: 1;
+    height: 40px;
+}
+
+#category-button {
+    border-radius: 10px 0 0 10px;
+    font-size: 16px;
+}
+
+#searh-button {
+    border-radius: 0 10px 10px 0;
+    background: #00afbd;
+    color: white;
+    font-size: 14px;
+}
+
+#all-cat-button, #how-button{
+    padding: 15px 25px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    opacity: 0.8;
+    color: forestgreen;
+
+}
+#all-cat-button, #how-butto, span{
+    font-size: 15px;
+}
+
+.input-group-prepend{
+    padding-top: 30vh;
+}
+
+.input-group-text{
+    margin-right: 30px;
+}
+
+
+
+.fa-th, .fa-hand-point-up{
+    color: forestgreen;
+}
+.gallery-img{
+    margin-bottom: 20px;
+}
+
+#navbar-below a{
+    font-size: 13px;
+}
+
+#menu-top li:last-child{
+    border-left: 1px solid gray;
+    padding-right: 20px;
+}
+
+@media screen and (max-width: 992px){
+   header{
+       height: 80vh;
+   }
+    header .container{
+        padding-top: 20px;
+    }
+    .text-quick{
+        font-size: 33px;
+    }
+    #searh-button{
+        font-size: 10px;
+    }
+    .input-group-prepend{
+        padding-top: 20vh;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        height: 70vh;
+    }
+
+    .nav-link {
+        font-size: 5px;
+    }
+
+    #navbar-menu {
+        float: right;
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+    }
+
+    #sign-up-line li:last-child {
+        border-top: 1px solid gray;
+        border-left: none;
+        float: none;
+        display: block;
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    #navbar-menu {
+        padding-top: 30px;
+    }
+    .text-quick{
+        font-size: 30px;
+        vertical-align: top;
+    }
+    .text-innovate{
+        font-size: 12px;
+        text-align: center;
+    }
+    h1{
+        padding-top: 20px;
+    }
+    .logo{
+        padding-top: 10px;
+        max-width: 70%;
+    }
+    .input-group-prepend{
+        padding-top: 10vh;
+    }
+    .text-muted{
+        text-align: center;
+    }
+    a{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    header {
+        height: 60vh;
+    }
+
+    .logo {
+        padding-top: 10px;
+        max-width: 60%;
+    }
+
+    #navbar-menu {
+        padding-top: 10px;
+    }
+
+    .text-quick {
+        font-size: 20px;
+        vertical-align: top;
+    }
+
+    .text-innovate {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    #all-cat-button, #how-button {
+        padding: 10px 20px;
+    }
+    #all-cat-button, #how-button, span{
+        font-size: 10px;
+    }
+    .input-group-prepend{
+        padding-top: 6vh;
+    }
+    #most-popular {
+        font-size: 20px;
+    }
+    h3{
+        padding-top: 8vh;
+    }
+
+    #category-button{
+        font-size: 10px;
+    }
+    #searh-button{
+        font-size: 10px;
+    }
+
+}
